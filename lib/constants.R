@@ -17,12 +17,12 @@ WAIT_SP <- "rexp(1.5)"
 WAIT_EX <- "rexp(0.4)"
 
 # ---- sim.taxa constants
-# forcing close to 75% extinction, gsa must be set to true
+# forcing close to 75% extinction, gsa must be set to true (actually maybe not)
 
 # value of n in sim.taxa
 LIVING_TIPS <- 5
 # value of m in sim.taxa
-TOTAL_BRANCHES <- 100
+TOTAL_BRANCHES <- 30
 
 # slightly better results with higher extinction rates for sim.taxas
 TAXA_WAIT_EX <- "rexp(0.9)"
